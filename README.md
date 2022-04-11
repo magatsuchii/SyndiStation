@@ -1,4 +1,4 @@
-## /tg/station codebase
+## SyndiStation codebase
 
 [![Build Status](https://github.com/syndistation/SyndiStation/workflows/CI%20Suite/badge.svg)](https://github.com/syndistation/SyndiStation/actions?query=workflow%3A%22CI+Suite%22)
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/syndistation/SyndiStation.svg)](https://isitmaintained.com/project/syndistation/SyndiStation "Percentage of issues still open")
