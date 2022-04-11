@@ -1,0 +1,19 @@
+
+matchTitle: false
+matchBody: true
+caseSensitive: true
+
+labelMappings:
+  "add:": Mechanic
+  "expansion:": Expansion
+  "del:": Removal
+  "qol:": Quality of Life
+  "soundadd:": Sound
+  "sounddel:": Sound
+  "imageadd:": Sprites
+  "imagedel:": Sprites
+  "balance:": Balance
+  "refactor:": Refactor
+  "config:": Config
+  "server:": Server
+  "fix:": Fix
