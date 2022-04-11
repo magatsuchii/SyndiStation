@@ -58,8 +58,11 @@ jobs:
                     }
                   }
 
-                  return context.octokit.issues.addLabels(
-                    context.issue({ labels: labelsToAdd })
-                  );
+                  github.issues.addLabels({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    labels: labelsToAdd
+                  })
                 }
       
