@@ -1,36 +1,44 @@
 /obj/item/clothing/under/syndicate
 	name = "tactical turtleneck"
-	desc = "A non-descript and slightly suspicious looking turtleneck with digital camouflage cargo pants."
+	desc = "A tastefully suspicious looking turtleneck with digital camouflage cargo pants."
 	icon_state = "syndicate"
 	inhand_icon_state = "bl_suit"
-	has_sensor = NO_SENSORS
 	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 50, ACID = 40)
 	alt_covers_chest = TRUE
 	icon = 'icons/obj/clothing/under/syndicate.dmi'
 	worn_icon = 'icons/mob/clothing/under/syndicate.dmi'
 
+/obj/item/clothing/under/syndicate/sweater
+	name = "syndicate turtleneck"
+	desc =	"A comfortable looking turtleneck with tactically pocket-covered black pants."
+	icon_state = "syndisweater"
+
+/obj/item/clothing/under/syndicate/sweater/skirt
+	name = "syndicate skirtleneck"
+	desc =	"A comfortable looking skirtleneck with tactically pocket-covered black pants."
+	icon_state = "syndisweater_skirt"
+
 /obj/item/clothing/under/syndicate/skirt
 	name = "tactical skirtleneck"
-	desc = "A non-descript and slightly suspicious looking skirtleneck."
+	desc = "A tastefully suspicious looking skirtleneck."
 	icon_state = "syndicate_skirt"
 	inhand_icon_state = "bl_suit"
-	has_sensor = NO_SENSORS
 	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 50, ACID = 40)
 	alt_covers_chest = TRUE
 	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 	dying_key = DYE_REGISTRY_JUMPSKIRT
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
-/obj/item/clothing/under/syndicate/bloodred
+/obj/item/clothing/under/syndicate/sneaksuit
 	name = "blood-red sneaksuit"
 	desc = "It still counts as stealth if there are no witnesses."
-	icon_state = "bloodred_pajamas"
+	icon_state = "bloodred_sneaksuit"
 	inhand_icon_state = "bl_suit"
 	armor = list(MELEE = 10, BULLET = 10, LASER = 10,ENERGY = 10, BOMB = 0, BIO = 0, FIRE = 50, ACID = 40)
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	can_adjust = FALSE
 
-/obj/item/clothing/under/syndicate/bloodred/sleepytime
+/obj/item/clothing/under/syndicate/sneaksuit/sleepytime
 	name = "blood-red pajamas"
 	desc = "Do operatives dream of nuclear sheep?"
 	icon_state = "bloodred_pajamas"
